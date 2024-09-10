@@ -76,7 +76,7 @@ class FoodCart extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
                                 Text(
-                                  price,
+                                  '\$ $price',
                                   style: const TextStyle(
                                       fontSize: 18,
                                       color: Colors.deepPurple,
