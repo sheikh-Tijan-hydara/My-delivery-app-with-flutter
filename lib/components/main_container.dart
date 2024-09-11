@@ -14,7 +14,7 @@ class MainContainer extends StatelessWidget {
                 padding: EdgeInsets.all(18),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: const [
+                  children: [
                     FoodCart("assets/images/food1.png", "Hot Burger",
                         "Delicious hot burger", "10.0", 4),
                     FoodCart("assets/images/food2.png", "Hot Dog",
@@ -26,7 +26,7 @@ class MainContainer extends StatelessWidget {
                 padding: EdgeInsets.all(18),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: const [
+                  children: [
                     FoodCart("assets/images/food3.png", "Pizza",
                         "Delicious pizza", "15.0", 5),
                     FoodCart("assets/images/food4.png", "Pasta",
